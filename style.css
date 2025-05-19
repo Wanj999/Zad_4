@@ -1,0 +1,103 @@
+body{
+ margin: 0;
+    background-color: #eaeaea;
+}
+nav.footer{
+    background-color: #625B5B;
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+ul{
+    margin-left: 40px;
+    list-style-type: circle;
+}
+nav a{
+    font-weight: bold;
+    background-color: #EAEAEA;
+    color:#625B5B;
+    padding: 10px;
+    margin:50px;
+    border-radius: 20px;
+}
+nav.a:hover{
+    background-color: #625B5B;
+    color: #EAEAEA;
+    border: solid 1px #EAEAEA;
+}
+table{
+    border:dashed 1px #625B5B;
+    width: 60%;
+    margin-left: 40px;
+    text-align: center;
+}
+.kontrolki{
+    margin: 5px;
+}
+
+#menu {
+    width: 100%;
+    height: 100px;
+    background-color: #645a5b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-button {
+    text-decoration: underline;
+    color: #645a5b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 40px;
+}
+
+.menu-button:hover {
+    background-color: #645a5b;
+    color: white;
+    outline: 2px solid white;
+}
+
+#button-cont {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#tablica {
+    width: 800px;
+    margin-left: 20px;
+    font-weight: 400;
+    outline: 1px dashed black;
+}
+
+#table-head {
+    font-weight: 700;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #645a5b;
+    position: fixed;
+    top: calc(100% - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: circle
+}
